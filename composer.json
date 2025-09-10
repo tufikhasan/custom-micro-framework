@@ -1,0 +1,13 @@
+{
+    "name": "towfik/framework",
+    "description": "This is my frist framework build",
+    "type": "framework",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["helpers/helper.php"]
+    }
+}
